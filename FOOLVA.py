@@ -78,11 +78,11 @@ print  """
   \033[1;91m\ \/\/ /| _|| |__| (_| (_) | |\/| | _|  
    \033[1;91m\_/\_/ |___|____|\___\___/|_|  |_|___|
 
-\033[1;91mAuthor©\033[1;91m: \033[1;93mMR DJ
+\033[1;91mAuthor\033[1;91m: \033[1;93mMR DJ
 \033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/AnonymousTrickers1
 \033[1;91mWhatsapp\033[1;91m: \033[1;93m+923045745077
-\033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»
-\033[1;91m«-------------\033[1;93mWELCOME TO TERMUX\033[1;91m-------------»"""
+\033[1;91mYoutube\033[1;93m✧\033[1;91m Anonymous Trickers
+\033[1;91m\033[1;93mWELCOME TO TERMUX\033[1;91m"""
 print "these commands only works on sim data "
 
 CorrectUsername = "DJ"
