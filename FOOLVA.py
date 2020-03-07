@@ -51,7 +51,7 @@ logo = """
  | |\ /| | '_|   | |  | |    | |
  | |   | | |     | |__| | |__| |
  |_|   |_|_|     |_____/  \___/
-\033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92mANONYMOUS BOYS\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+
 \033[1;97mAuthor©\033[1;97m: \033[1;92mMR DJ
 \033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/AnonymousTrickers1
 \033[1;97mWhatsapp\033[1;97m: \033[1;92m+923045745077
@@ -83,6 +83,7 @@ print  """
 \033[1;91mWhatsapp\033[1;91m: \033[1;93m+923045745077
 \033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»
 \033[1;91m«-------------\033[1;93mWELCOME TO TERMUX\033[1;91m-------------»"""
+print "these commands only works on sim data "
 
 CorrectUsername = "DJ"
 CorrectPassword = "DJ143"
