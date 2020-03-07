@@ -55,7 +55,7 @@ logo = """
 \033[1;97mAuthor\033[1;97m: \033[1;92mMR DJ
 \033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/AnonymousTrickers1
 \033[1;97mWhatsapp\033[1;97m: \033[1;92m+923045745077
-\033[1;97Youtube\033[1;92mTERMUX  BOYS\033[1;97m Anonymous Trickers"""
+\033[1;97Youtube\033[1;92m \033[1;97m Anonymous Trickers"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -81,8 +81,8 @@ print  """
 \033[1;91mAuthor\033[1;91m: \033[1;93mMR DJ
 \033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/AnonymousTrickers1
 \033[1;91mWhatsapp\033[1;91m: \033[1;93m+923045745077
-\033[1;91mYoutube\033[1;93m \033[1;91m Anonymous Trickers
-\033[1;91m\033[1;93mWELCOME TO TERMUX\033[1;91m"""
+\033[1;91mYoutube\033[1;93m \033[1;91m Anonymous Trickers"""
+
 print "these commands only works on sim data "
 
 CorrectUsername = "DJ"
@@ -112,11 +112,11 @@ def login():
 		os.system('clear')
 		print logo
 		jalan(' \033[1;91mWarning: \033[1;97mLOGIN YOUR NEW FB ACCOUNT' )
-		jalan('          \033[1;97mDONOT USE OLD FB ACC' )
-		print('	   \033[1;95m \x1b[1;95mLOGIN WITH FACEBOOK\x1b[1;95m' )
+		jalan('                    \033[1;97mDONOT USE OLD FB ACC' )
+		print('	        \033[1;95m \x1b[1;95mLOGIN WITH FACEBOOK\x1b[1;95m' )
 		print('	' )
 		id = raw_input('\033[1;96m [] \x1b[1;93mID/Email\x1b[1;93m: \x1b[1;96m')
-		pwd = raw_input('\033[1;96m[] \x1b[1;93mPassword\x1b[1;93m: \x1b[1;96m')
+		pwd = raw_input('\033[1;96m  [] \x1b[1;93mPassword\x1b[1;93m: \x1b[1;96m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
